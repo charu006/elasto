@@ -1,0 +1,172 @@
+{
+  "identity": {
+    "persona": "E1",
+    "philosophy": "Fusion over Imitation. Emotion First. Content is King.",
+    "anti_patterns": [
+      "Purple/Teal gradients for CTAs",
+      "Inter font for headings",
+      "Symmetry everywhere",
+      "Generic Bootstrap layouts"
+    ]
+  },
+  "visual_system": {
+    "theme_mode": "light",
+    "colors": {
+      "palette_name": "Scientific Precision",
+      "description": "A sterile, high-contrast lab aesthetic with industrial safety accents.",
+      "primary": {
+        "name": "Deep Lab Blue",
+        "hex": "#0F172A",
+        "tailwind": "slate-900",
+        "usage": "Primary buttons, active states, strong headings"
+      },
+      "secondary": {
+        "name": "Lab Coat White",
+        "hex": "#F8FAFC",
+        "tailwind": "slate-50",
+        "usage": "Page backgrounds, secondary containers"
+      },
+      "accent": {
+        "name": "Safety Orange",
+        "hex": "#F97316",
+        "tailwind": "orange-500",
+        "usage": "Call-to-actions, alerts, critical data points"
+      },
+      "neutral": {
+        "name": "Slate Grey",
+        "hex": "#64748B",
+        "tailwind": "slate-500",
+        "usage": "Secondary text, borders, icons"
+      },
+      "forbidden": [
+        "#1B93A4",
+        "#7351B7"
+      ]
+    },
+    "typography": {
+      "headings": {
+        "family": "Manrope",
+        "weights": [
+          "600",
+          "800"
+        ],
+        "tracking": "tight",
+        "usage": "All section titles, hero text, modal headers"
+      },
+      "body": {
+        "family": "Inter",
+        "weights": [
+          "400",
+          "500"
+        ],
+        "usage": "Paragraphs, UI labels, inputs"
+      },
+      "data": {
+        "family": "JetBrains Mono",
+        "weights": [
+          "400"
+        ],
+        "usage": "Formulation data, chemical formulas, code snippets"
+      }
+    },
+    "spacing": {
+      "scale": "Generous (2x standard)",
+      "container_padding": "p-8 or p-12",
+      "grid_gap": "gap-6 or gap-8"
+    },
+    "radius": {
+      "default": "rounded-md",
+      "buttons": "rounded-full",
+      "cards": "rounded-lg"
+    }
+  },
+  "components": {
+    "library": "shadcn/ui",
+    "path": "/app/frontend/src/components/ui",
+    "customization_rules": [
+      "Do not use default Card component for everything. Use flat layouts with borders.",
+      "Inputs must have 'h-12' for better touch targets.",
+      "Buttons should be 'h-11' or 'h-12' for primary actions.",
+      "Use 'Sonner' for toasts, not default toast.",
+      "Dropdowns must NOT have transparent backgrounds."
+    ],
+    "specific_components": {
+      "buttons": {
+        "primary": "bg-slate-900 text-white hover:bg-slate-800 rounded-full px-8",
+        "secondary": "bg-white border border-slate-200 text-slate-900 hover:bg-slate-50 rounded-full px-8",
+        "ghost": "hover:bg-slate-100 text-slate-600 hover:text-slate-900"
+      },
+      "cards": {
+        "dashboard": "bg-white border border-slate-200 shadow-sm hover:shadow-md transition-all duration-200",
+        "feature": "bg-slate-50 border-none p-8 rounded-2xl"
+      },
+      "inputs": {
+        "default": "bg-white border-slate-200 focus:ring-2 focus:ring-slate-900 focus:border-transparent h-11"
+      }
+    }
+  },
+  "layouts": {
+    "landing_page": {
+      "grid_type": "Tetris Grid",
+      "structure": "Asymmetrical bento grid. Hero section uses 2/3 width for text, 1/3 for 3D/Image. Feature section uses alternating large/small blocks.",
+      "background": "White with subtle 'noise' texture or faint grid lines."
+    },
+    "dashboard": {
+      "grid_type": "Control Room Grid",
+      "structure": "Sidebar navigation (fixed). Main content area with 4-column grid. Widgets span 1, 2, or 4 columns.",
+      "density": "High. Use 'JetBrains Mono' for data tables. Minimal padding inside data cells."
+    }
+  },
+  "assets": {
+    "images": {
+      "hero_background": {
+        "url": "https://images.unsplash.com/photo-1707944746508-f2dd7b88ac1b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHw0fHxsYWJvcmF0b3J5JTIwc2NpZW50aXN0JTIwbWljcm9zY29wZXxlbnwwfHx8fDE3Njc4NjAyMjV8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Scientist using electron microscope",
+        "usage": "Landing page hero section, potentially with a gradient overlay"
+      },
+      "feature_1": {
+        "url": "https://images.unsplash.com/photo-1759270463226-c5e04a4542c1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwxfHxtb2xlY3VsYXIlMjBzdHJ1Y3R1cmUlMjAzZCUyMGFic3RyYWN0JTIwYmx1ZXxlbnwwfHx8fDE3Njc4NjAyMjh8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Abstract molecular structure blue",
+        "usage": "Formulation prediction feature section"
+      },
+      "feature_2": {
+        "url": "https://images.unsplash.com/photo-1763584357116-31a7d0bf389d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzF8MHwxfHNlYXJjaHwxfHxydWJiZXIlMjB0ZXh0dXJlJTIwY2xvc2UlMjB1cCUyMGFic3RyYWN0fGVufDB8fHx8MTc2Nzg2MDIyNnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Close up rubber texture",
+        "usage": "Material analysis feature section"
+      },
+      "auth_background": {
+        "url": "https://images.unsplash.com/photo-1746422125911-37dd7e925fa3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODB8MHwxfHNlYXJjaHwyfHxtb2xlY3VsYXIlMjBzdHJ1Y3R1cmUlMjAzZCUyMGFic3RyYWN0JTIwYmx1ZXxlbnwwfHx8fDE3Njc4NjAyMjh8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Abstract blue 3d shapes",
+        "usage": "Split screen background for Login/Register pages"
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "style": "Stroke width 1.5px (thin/elegant)",
+      "color": "text-slate-900"
+    }
+  },
+  "motion": {
+    "transitions": "transition-all duration-300 ease-out",
+    "hover_effects": "hover:-translate-y-1 hover:shadow-lg",
+    "page_load": "animate-in fade-in slide-in-from-bottom-4 duration-700"
+  },
+  "accessibility": {
+    "contrast": "Ensure text is Slate-900 on White, or White on Slate-900.",
+    "focus_states": "focus:ring-2 focus:ring-offset-2 focus:ring-slate-900",
+    "testing": "All interactive elements must have data-testid attributes."
+  },
+  "instructions_to_main_agent": {
+    "general": "Follow the E1 persona. Do not build generic 'Bootstrap' layouts. Use the provided image URLs. Stick to the 'Scientific Precision' color palette.",
+    "file_structure": "Use the existing Shadcn components in /app/frontend/src/components/ui. Create new page components in /app/frontend/src/pages/.",
+    "routing": "Ensure React Router is set up for all key pages (Landing, Login, Dashboard, etc.).",
+    "state_management": "Use React Context or simple state for MVP. Mock API calls if backend is not ready."
+  },
+  "universal_guidelines": {
+    "no_ai_slop": "Avoid generic centered layouts and gradients.",
+    "depth": "Use z-index and layered shadows.",
+    "micro_animations": "Every interaction needs feedback.",
+    "spacing": "Use 2-3x more spacing than usual.",
+    "export_conventions": "Named exports for components, default exports for pages."
+  }
+}
