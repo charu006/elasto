@@ -1,13 +1,13 @@
-# 🚀 ElastoAI — AI for Elastomer Formulation Optimization
+#  ElastoAI — AI for Elastomer Formulation Optimization
 
-## 📌 Overview
+##  Overview
 ElastoAI is an AI-powered system designed to assist in elastomer formulation development by reducing costly trial-and-error experimentation in R&D.
 
 This project was inspired by real industrial challenges observed during academic exposure in Germany.
 
 ---
 
-## 🧠 Problem
+##  Problem
 Elastomer formulation requires multiple physical experiments, making it:
 - Expensive
 - Time-consuming
@@ -15,7 +15,7 @@ Elastomer formulation requires multiple physical experiments, making it:
 
 ---
 
-## 💡 Solution
+##  Solution
 ElastoAI uses AI and retrieval-based techniques to:
 - Suggest optimized material formulations
 - Assist engineers with intelligent recommendations
@@ -23,7 +23,7 @@ ElastoAI uses AI and retrieval-based techniques to:
 
 ---
 
-## ⚙️ Tech Stack
+##  Tech Stack
 - Python
 - FastAPI
 - MongoDB
@@ -33,7 +33,7 @@ ElastoAI uses AI and retrieval-based techniques to:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 - Frontend: React dashboard
 - Backend: FastAPI server
 - AI Layer: LLM + embeddings
@@ -41,7 +41,7 @@ ElastoAI uses AI and retrieval-based techniques to:
 
 ---
 
-## 🔍 Features
+##  Features
 - AI-powered formulation suggestions
 - Chat-based interface
 - Knowledge base integration
@@ -49,17 +49,17 @@ ElastoAI uses AI and retrieval-based techniques to:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 
 ---
 
-## 🎥 Demo
+##  Demo
 (Add demo video link here)
 
 ---
 
-## 🌍 Impact
+##  Impact
 - Reduces R&D cost
 - Speeds up material development
 - Bridges AI with chemical engineering
