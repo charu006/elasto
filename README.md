@@ -1,114 +1,111 @@
-#  ElastoAI — AI for Elastomer Formulation Optimization
+# ElastoAI — AI for Elastomer Formulation Optimization
 
-##  Overview
-ElastoAI is an AI-powered platform designed to assist engineers and researchers in developing elastomer formulations efficiently.
-
-It reduces costly trial-and-error experimentation by leveraging AI, document analysis, and intelligent recommendations.
+AI-powered platform for elastomer formulation, document analysis, and intelligent material prediction.
 
 ---
 
-##  Problem
-Elastomer formulation development is:
-- Time-consuming  
-- Expensive  
-- Requires multiple physical experiments  
+## Demo
+
+Watch full demo:  
+https://youtu.be/QOP9QM4YYoc
 
 ---
 
-##  Solution
-ElastoAI provides:
-- AI-based formulation prediction  
-- Chat-based expert assistant  
-- Document analysis for research insights  
-- Knowledge base for elastomer science  
+## Preview
 
----
-
-##  Tech Stack
-- **Frontend:** React  
-- **Backend:** FastAPI  
-- **Database:** MongoDB  
-- **AI Layer:** LLM + Sentence Transformers  
-- **Other:** REST APIs, RAG System  
-
----
-
-##  Features
-
--  AI-powered elastomer formulation prediction  
--  Chat-based elastomer assistant  
--  Document analysis (PDF support)  
--  Knowledge base system  
--  Fine-tuning training module  
--  Real-time interactive dashboard  
-
----
-
-##  Architecture
-
-- Frontend (React Dashboard)
-- Backend (FastAPI Server)
-- AI Layer (LLM + Embeddings)
-- Database (MongoDB)
-
----
-
-##  Application Screenshots
-
-###  Home Page
 <img src="images/home.jpeg" width="800"/>
 
 ---
 
-###  Dashboard
+## Overview
+
+ElastoAI is designed to assist engineers and researchers in developing elastomer formulations efficiently.  
+It reduces costly trial-and-error experimentation using artificial intelligence and data-driven insights.
+
+---
+
+## Problem
+
+Elastomer formulation development is:
+- Time-consuming  
+- Expensive  
+- Dependent on repeated physical testing  
+
+---
+
+## Solution
+
+ElastoAI provides:
+- AI-based formulation prediction  
+- Chat-based assistant for elastomer science  
+- Document analysis for extracting technical insights  
+- Knowledge base for storing domain-specific data  
+
+---
+
+## Key Features
+
+- AI-driven formulation prediction  
+- Interactive chat interface for technical queries  
+- PDF document analysis and knowledge extraction  
+- Knowledge base management system  
+- Training module for fine-tuning data  
+- Real-time dashboard  
+
+---
+
+## Architecture
+
+- Frontend: React  
+- Backend: FastAPI  
+- Database: MongoDB  
+- AI Layer: LLM and embedding models  
+- Communication: REST APIs  
+
+---
+
+## Application Screenshots
+
+### Home Page
+<img src="images/home.jpeg" width="800"/>
+
+### Dashboard
 <img src="images/dashboard.jpeg" width="800"/>
 
----
-
-###  AI Chat Interface
+### Chat Interface
 <img src="images/chat.jpeg" width="800"/>
 
----
-
-###  Formulation Predictor
+### Formulation Predictor
 <img src="images/formulation.jpeg" width="800"/>
 
----
-
-###  Document Analysis
+### Document Analysis
 <img src="images/documents.jpeg" width="800"/>
 
----
-
-###  Knowledge Base
+### Knowledge Base
 <img src="images/knowledge.jpeg" width="800"/>
 
----
-
-###  Training Module
+### Training Module
 <img src="images/training.jpeg" width="800"/>
 
 ---
 
-##  Demo Video
-[Watch Demo](https://youtu.be/QOP9QM4YYoc)
+## Impact
 
----
-
-##  Impact
-- Reduces R&D cost  
+- Reduces research and development cost  
 - Speeds up formulation development  
-- Bridges AI with material science  
+- Integrates AI with material science workflows  
 
 ---
 
-##  Author
-** R Charu Swathi Sree**
+## Future Work
 
----
-
-##  Future Improvements
-- Advanced ML models for prediction  
-- Multi-user collaboration  
+- Advanced machine learning models  
+- Multi-user collaboration features  
 - Cloud deployment  
-- Enhanced UI/UX  
+- Improved UI and scalability  
+
+---
+
+## Author
+
+Charu Swathi Sree
